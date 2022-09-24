@@ -1,0 +1,34 @@
+<div class="container">
+<div class="row">
+  <div class="column">
+    <h1>{{ title }} </h1>
+    <div class="card" [style.background-color]="cardColor" 
+    [style.width.px]="boardWidth"
+    [style.color]="fontColor" 
+    [style.font-size.px]="fontSize"
+     [style.height.px]="boardHeight">
+      <h3>{{quote}}</h3>
+    </div>
+    
+  </div>
+<div class="column">
+<form action="">
+  <h4>Enter the Quote</h4>
+  <textarea name="quote" cols="50" [(ngModel)]="quote" rows="5">
+  </textarea>
+<br>
+<h4>Background Color : {{cardColor}} </h4>
+<input type="color" name="cardColor" [(ngModel)]="cardColor"/>
+<h4>Font Color</h4>
+<input type="color" name="fontColor" [(ngModel)]="fontColor"/>
+<h4>Set Dimension {{boardWidth}} x {{boardHeight}} </h4>
+  <input type="number" name="boardWidth" placeholder="Enter Board Width" [(ngModel)]="boardWidth"/>
+  <input type="number" name="boardHeight" placeholder="Enter Board Height" [(ngModel)]="boardHeight"/>
+
+  <h4>Font Size</h4>
+  <input type="range" min="10" max="100" name="fontSize" [(ngModel)]="fontSize"/>
+</form>
+  </div>
+</div>
+</div>
+<router-outlet></router-outlet>
