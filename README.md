@@ -1,10 +1,12 @@
-# QuoteDesigner
+# Simple Quote Designer in Angular
 
-###This example demonstrates the use of data binding in angular. We have used Property Binding and Two way Binding using ngModel to make an interactive simple quote designer app.
+### This example demonstrates the use of data binding in angular. We have used Property Binding and Two way Binding using ngModel to make an interactive simple quote designer app.
 
-###Screenshot:
+#### Level : Beginner
 
-![alt text](https://photos.app.goo.gl/yeZiKS8qV8cf31JT8)
+## Screenshot:
+
+![alt text](https://github.com/ReprogrammingLab/QuoteApp/blob/master/Angular-Data-Binding-Demo.gif?raw=true)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.0-rc.2.
 
